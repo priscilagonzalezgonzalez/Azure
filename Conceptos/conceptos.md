@@ -14,7 +14,7 @@ Las aplicaciones basadas en la nube proporcionan una experiencia de usuario cont
 **Horizontal**: La capacidad aumenta agregando más instancias. 
 
 #### Elasticidad
-La necesidad de recursos es automática.
+La necesidad de recursos se confugura de forma automática.
 
 #### Agilidad
 La configuración e implementación de recursos conforme cambian los requisitos de la aplicación es rápida.
@@ -24,3 +24,18 @@ Los centros de datos están ubicados en distintas regiones del mundo. Las aplica
 
 #### Recuperación ante desastres
 Los recursos basados en la nube utilizan copias de seguridad distribuidas en los distintos centros de datos para proteger los datos en casos de desastre.
+
+#### Modelo de servicio 
+Definen los distintos niveles de responsabilidad compartidad entre un proveedor y el cliente (o quien adquiere los servicios).
+
+#### IaaS
+Modelo de servicio en la nube. El proveedor de servicios mantiene actualizado el hardware, pero el mantenimiento del sistema operativo y la configuración de red no es su responsabilidad.
+
+#### PaaS
+Modelo de servicio en la nube. El proveedor de servicios administra las máquinas virtuales y los recursos de red, pero el inquilino implementa sus aplicaciones en el entorno seleccionado.
+
+#### SaaS
+Modelo de servicio en la nube. El proveedor de servicios administra todos los aspectos del entorno de la aplicación, máquinas virtuales, recursos de red, almacenamiento de datos y aplicaciones. Solo es necesario proporcionar los datos de la información.
+
+![Modelos de servicio en la nube](/imagenes/modelos-servicio)
+
