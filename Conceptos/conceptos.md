@@ -37,5 +37,5 @@ Modelo de servicio en la nube. El proveedor de servicios administra las máquina
 #### SaaS
 Modelo de servicio en la nube. El proveedor de servicios administra todos los aspectos del entorno de la aplicación, máquinas virtuales, recursos de red, almacenamiento de datos y aplicaciones. Solo es necesario proporcionar los datos de la información.
 
-![Modelos de servicio en la nube](/imagenes/modelos-servicio)
+![Modelos de servicio en la nube](modelo.png)
 
