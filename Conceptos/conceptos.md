@@ -39,3 +39,15 @@ Modelo de servicio en la nube. El proveedor de servicios administra todos los as
 
 ![Modelos de servicio en la nube](modelo.png)
 
+#### Informática sin servidor
+El término procede del hecho de que las tareas asociadas a la administración de la infraestructura son invisibles para el desarrollador. La informática sin servidor permite que las organizaciones optimicen mejor los recursos y se centren en la innovación.
+
+#### Nube pública
+Los servicios son ofrecidos a través de internet y son públicos para quien quiera comprarlos. Los recursos (almacenamiento, servidores) son propiedad de un proveedor de servicios.
+
+#### Nube privada
+Los recursos informáticos están disponibles para el uso único de la organización propietaria. Esto no quiere decir que la nube privada esté ubicada en un centro de datos local de la organización sino que puede ser hospedada en un proveedor de servicios de nube.
+
+#### Nube híbrida
+Combina ambas nubes (privada y pública). Es posible compartir datos y aplicaciones entre ellas. 
+
