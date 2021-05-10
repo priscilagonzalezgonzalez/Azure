@@ -90,3 +90,8 @@ La orquestación de servicios es la configuración, gestión y coordinación aut
 Un centro de datos tiene un conjunto de estantes llenos de servidores y cada servidor tiene un hipervisor para correr múltiples máquinas virtuales. Un switch de red provee conectividad a todos esos servidores. Cada uno de los servidores cuenta con un *fabric controller*, el cual está conectado al orquestador.
 Por ejemplo, el usuario hace una petición, desde la interfaz del Portal web de Azure, de crear una máquina virtual. El orquestador empaqueta lo necesario, elige la estantería de servicios más adecuada y manda la petición al *fabric controller*, el cual crea la máquina virtual y finalmente, el usuario obtiene su máquina virtual.
 
+#### Portal de Azure
+Azure Portal te ayuda a administrar tu suscripción de Azure mediante una interfaz gráfica de usuario. Te ayuda a crear, configurar y controlar todos tus servicios de Azure.
+
+#### Servicios de Azure
+(images/azure-services.png)
