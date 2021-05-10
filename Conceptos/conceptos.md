@@ -94,4 +94,4 @@ Por ejemplo, el usuario hace una petición, desde la interfaz del Portal web de 
 Azure Portal te ayuda a administrar tu suscripción de Azure mediante una interfaz gráfica de usuario. Te ayuda a crear, configurar y controlar todos tus servicios de Azure.
 
 #### Servicios de Azure
-![Servicios de Azure](images/azure-services.png)
+![Servicios de Azure](imagenes/azure-services.png)
