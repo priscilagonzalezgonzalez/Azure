@@ -37,7 +37,7 @@ Modelo de servicio en la nube. El proveedor de servicios administra las máquina
 #### SaaS
 Modelo de servicio en la nube. El proveedor de servicios administra todos los aspectos del entorno de la aplicación, máquinas virtuales, recursos de red, almacenamiento de datos y aplicaciones. Solo es necesario proporcionar los datos de la información.
 
-![Modelos de servicio en la nube](modelo.png)
+![Modelos de servicio en la nube](imagenes/modelo.png)
 
 #### Informática sin servidor
 El término procede del hecho de que las tareas asociadas a la administración de la infraestructura son invisibles para el desarrollador. La informática sin servidor permite que las organizaciones optimicen mejor los recursos y se centren en la innovación.
@@ -60,6 +60,7 @@ La vitualización permite particionar un equipo o servidor físico en varias má
 #### Hipervisor
 Un hipervisor permite que un ordenador preste soporte a varias máquinas virtuales, mediante el uso compartido de recursos como la memoria y el procesamiento.
 **Hipervisor tipo 1:** Se ejecuta directamente en el hardware del host.
+
 **Hipervisor tipo 2:** Se ejecutan como una capa de software sobre un sistema operativo, como otro programa informático. Como VMware Workstation.
 
 #### API
@@ -73,6 +74,7 @@ Una API REST usa HTTP. Define un conjunto de funciones que los desarrolladores p
 #### Fabric Controller
 **Fabrics:** Son un grupo de máquinas en un centro de datos conectadas a un switch. A este grupo se le llama *cluster*. 
 Cada cluster es administrado por un *fabric controller*. 
+
 **Tareas del Fabric Controller**
 - Administra la asignación de recursos para una aplicación específica.
 - Monitorea la salud el servicio de almacenamiento y computo.
@@ -84,7 +86,7 @@ Por lo tantom todas las tareas inteligentes son realizadas por el *fabric contro
 La orquestación de servicios es la configuración, gestión y coordinación automatizadas de los sistemas informáticos, las aplicaciones y los servicios. Es responsable de responder a peticiones de usuario.
 
 #### Centro de datos
-![Imagen animada de un centro de datos](centro_datos.jpg)
+![Imagen animada de un centro de datos](imagenes/centro_datos.jpg)
 Un centro de datos tiene un conjunto de estantes llenos de servidores y cada servidor tiene un hipervisor para correr múltiples máquinas virtuales. Un switch de red provee conectividad a todos esos servidores. Cada uno de los servidores cuenta con un *fabric controller*, el cual está conectado al orquestador.
 Por ejemplo, el usuario hace una petición, desde la interfaz del Portal web de Azure, de crear una máquina virtual. El orquestador empaqueta lo necesario, elige la estantería de servicios más adecuada y manda la petición al *fabric controller*, el cual crea la máquina virtual y finalmente, el usuario obtiene su máquina virtual.
 
